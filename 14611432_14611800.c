@@ -7,7 +7,7 @@ Vitor Pardini Saconi [14611800]
 #include <stdlib.h>
 #include <stdio.h>
 
-int* my_bubble_sort(vetor, tamanho)
+int* bubble_sort(vetor, tamanho)
 int *vetor; int tamanho;
 {
     //Flag que sinaliza 1 enquanto o vetor não está ordenado.
@@ -61,7 +61,7 @@ int main()
     }
 
     // Ordena o vetor por meio do algoritmo bubble sort.
-    vetor=my_bubble_sort(vetor,a);
+    vetor=bubble_sort(vetor,a);
 
     // Imprime o vetor ordenado.
     for(int i=0;i<a;i++){
